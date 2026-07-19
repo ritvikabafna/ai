@@ -1,0 +1,32 @@
+Retrieval-Augmented Generation (RAG) Sample Document
+
+Artificial Intelligence (AI) enables computers to perform tasks that
+normally require human intelligence, such as language understanding,
+image recognition, and decision-making.
+
+Machine Learning (ML) is a subset of AI in which algorithms learn
+patterns from data. Deep Learning is a specialized branch of ML that
+uses neural networks with multiple hidden layers.
+
+Retrieval-Augmented Generation (RAG) combines a retriever with a large
+language model (LLM). Instead of relying only on the model’s internal
+knowledge, RAG retrieves relevant information from external documents
+before generating an answer.
+
+Typical RAG Pipeline: 1. Load documents. 2. Split documents into chunks.
+3. Generate embeddings for each chunk. 4. Store embeddings in a vector
+database such as ChromaDB. 5. Retrieve the most relevant chunks for a
+user query. 6. Pass the retrieved context to the language model. 7.
+Generate an informed response.
+
+Benefits: - Reduces hallucinations. - Provides up-to-date information. -
+Allows the model to answer questions about private documents. - Improves
+accuracy for domain-specific tasks.
+
+Example Query: “What are the main advantages of Retrieval-Augmented
+Generation?”
+
+Expected Answer: RAG improves factual accuracy by retrieving relevant
+information from external documents before generating a response. It
+also enables the use of private, domain-specific, and frequently updated
+knowledge sources.
